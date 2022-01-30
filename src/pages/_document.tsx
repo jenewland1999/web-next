@@ -5,10 +5,7 @@ import Document, {
   Main,
   NextScript,
 } from "next/document";
-
-const GOOGLE_FONTS_URL =
-  "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap";
-
+import { GOOGLE_FONTS_URL } from "../constants";
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const initialProps = await Document.getInitialProps(ctx);
