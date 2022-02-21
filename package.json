@@ -1,5 +1,7 @@
 {
-  "name": "spectral-web-next",
+  "name": "next-web",
+  "version": "0.1.0",
+  "description": "Next.js web project setup with e2e and unit testing.",
   "private": true,
   "browserlist": {
     "production": [
