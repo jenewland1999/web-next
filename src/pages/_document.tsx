@@ -28,15 +28,15 @@ class MyDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html: `
-      </style>
-        <link
-          rel="stylesheet"
-          href="${GOOGLE_FONTS_URL}"
-          media="print"
-          onload="this.media = 'all';"
-        />
-      <style>
-    `,
+                </style>
+                  <link
+                    rel="stylesheet"
+                    href="${GOOGLE_FONTS_URL}"
+                    media="print"
+                    onload="this.media = 'all';"
+                  />
+                <style>
+              `,
             }}
           ></style>
           <noscript>
