@@ -43,7 +43,7 @@ class MyDocument extends Document {
             <link rel="stylesheet" href={GOOGLE_FONTS_URL} />
           </noscript>
         </Head>
-        <body>
+        <body className="min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-white">
           <Main />
           <NextScript />
         </body>
